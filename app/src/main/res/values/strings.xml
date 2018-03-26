@@ -1,0 +1,61 @@
+<resources>
+
+    <!--MAIN MENU-->
+    <string name="app_name">The Brain Trainer</string>
+    <string name="long_app_name">The Brain Trainer</string>
+    <string name="main_menu_string">Main Menu</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="settings_label">Settings</string>
+    <string name="exit_label">Exit</string>
+    <string name="img_desc">Background Image</string>
+
+    <!--ABOUT DIALOG-->
+    <string name="about_title">About The Brain Trainer</string>
+    <string name="about_text">\
+        Calculate the equation from left to right. Do not do division and multiplication before plus and minus.
+        \n\
+        Also if the division equals a decimal just remove all the decimals before continuing the calculation. Eg 10/3 = 3.
+        \n\
+        Press the # when you are satisfied with your answer and you will get a correct or wrong on your screen. Then press # sgain to go to the next question.
+        Each round has 10 questions and you have 10 seconds to answer each questions.
+         </string>
+    <string name="ok_label">OK</string>
+
+    <!--EXIT MENU-->
+    <string name="exit_box_title">Do you want to save your game before exit?</string>
+    <string name="yes_label">YES</string>
+    <string name="no_label">NO</string>
+
+    <!--LEVEL MENU-->
+    <string name="level_box_title">Which level do you want to play?</string>
+    <string name="novice_label">Novice</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="guru_label">Guru</string>
+
+    <!--KEYBOARD-->
+    <string name="zero_label">0</string>
+    <string name="one_label">1</string>
+    <string name="two_label">2</string>
+    <string name="three_label">3</string>
+    <string name="four_label">4</string>
+    <string name="five_label">5</string>
+    <string name="six_label">6</string>
+    <string name="seven_label">7</string>
+    <string name="eight_label">8</string>
+    <string name="nine_label">9</string>
+    <string name="delete_label">DEL</string>
+    <string name="hashtag_label">#</string>
+    <string name="minus_label">-</string>
+
+    <string name="guess_label">Guess:</string>
+    <string name="question_label">8*5 = ?</string>
+
+    <!-- SETTINGS -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="hint_label">Hints</string>
+
+</resources>

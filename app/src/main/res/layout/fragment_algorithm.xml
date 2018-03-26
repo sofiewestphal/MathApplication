@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.sofie.mymathapplication.GameActivity">
+
+    <TextView
+        android:id="@+id/guess_label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/menu_button_margin"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:text="@string/guess_label"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/algorithm_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_label"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="@dimen/menu_button_padding"
+        android:background="@drawable/menubtnbackground"/>
+
+</LinearLayout>

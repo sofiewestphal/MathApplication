@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/menu_button_margin</item>
+        <item name="android:padding">@dimen/menu_button_padding</item>
+        <item name="android:background">@drawable/menubtnbackground</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExitButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/menu_button_margin</item>
+        <item name="android:padding">@dimen/menu_button_padding</item>
+        <item name="android:background">@drawable/menubtnbackground</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="KeyboardButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">@dimen/menu_button_margin</item>
+        <item name="android:padding">@dimen/menu_button_padding</item>
+        <item name="android:background">#e9e9e9</item>
+    </style>
+
+    <style name="headLine">
+        <item name="android:layout_marginBottom">@dimen/menu_title_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="headLineBlack">
+        <item name="android:layout_marginBottom">@dimen/menu_title_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="menuContainer">
+        <item name="android:elevation">@dimen/elevation_high</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/menu_padding</item>
+    </style>
+
+</resources>

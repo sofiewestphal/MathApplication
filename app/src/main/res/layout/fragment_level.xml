@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/menuContainer"
+    tools:context="com.example.sofie.mymathapplication.MainActivity">
+
+    <TextView
+        style="@style/headLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level_box_title"/>
+
+    <Button
+        android:id="@+id/novice_button"
+        style="@style/MenuButton"
+        android:gravity="center"
+        android:text="@string/novice_label"/>
+
+    <Button
+        android:id="@+id/easy_button"
+        style="@style/MenuButton"
+        android:text="@string/easy_label"/>
+
+    <Button
+        android:id="@+id/medium_button"
+        style="@style/MenuButton"
+        android:text="@string/medium_label"/>
+
+    <Button
+        android:id="@+id/guru_button"
+        style="@style/MenuButton"
+        android:text="@string/guru_label"/>
+
+</LinearLayout>
